@@ -1,0 +1,40 @@
+{
+  "name": "javascript-30",
+  "version": "1.0.0",
+  "description": "Wes Bos Javascript 30 Series",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged npm lint",
+      "pre-push": "npm test"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burrelle/javascript-30.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/burrelle/javascript-30/issues"
+  },
+  "homepage": "https://github.com/burrelle/javascript-30#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "eslint": "^5.11.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "husky": "^1.3.1",
+    "jest": "^23.6.0",
+    "prettier": "^1.15.3",
+    "regenerator-runtime": "^0.13.1"
+  }
+}
