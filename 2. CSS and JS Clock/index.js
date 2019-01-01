@@ -1,4 +1,5 @@
 /* eslint max-len: ["error", { "code": 120 }] */
+/* eslint implicit-arrow-linebreak: [, "beside"] */
 
 const secondHand = document.querySelector('.second-hand');
 const minuteHand = document.querySelector('.min-hand');
